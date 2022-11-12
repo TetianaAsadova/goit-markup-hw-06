@@ -523,8 +523,7 @@ button {
 .footer-text {
     color: rgba(255, 255, 255, 0.6);
     line-height: 1.71;
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
 
 .norm .footer-text {
@@ -581,6 +580,47 @@ button {
 .socials-footer:hover,
 .socials-footer:focus {
     background-color: #2196F3;
+}
+
+.emailing {
+    margin-left: 93px;
+}
+
+.emailing-text {
+    margin-bottom: 20px;
+
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.emailing-form {
+    display: flex;
+}
+
+.emailing-button {
+    margin-left: 12px;
+    width: 200px;
+    height: 50px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
 
 /* Modal window */
